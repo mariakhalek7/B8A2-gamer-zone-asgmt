@@ -1,0 +1,63 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+     font-family: 'Work Sans', sans-serif;
+     margin: 0;
+}
+.nav-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.nav-title img{
+    width: 75px;
+}
+.nav-title .gamer{
+    color: #0B0223;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.gamer .G-color{
+    color:#ff42a5 ;
+}
+.red{
+    color: red;
+    margin-left: 15px;
+    font-size: 25px;
+}
+nav{
+    display: flex;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 
+    0, 0, 0.05);
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 170px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+nav li{
+    margin-left: 20px;
+    list-style: none;
+  
+}
+ul a{
+    text-decoration: none;
+   
+}
+.follow {
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 25px;
+}
