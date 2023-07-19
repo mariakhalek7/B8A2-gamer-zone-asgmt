@@ -430,6 +430,7 @@ footer img{
         flex-direction: column-reverse;
         padding:10px 20px ;
         background-position: bottom;
+        background-size: 90%;
         gap: 78px;
     
     }
