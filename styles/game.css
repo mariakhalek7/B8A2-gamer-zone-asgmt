@@ -205,12 +205,58 @@ margin-bottom: 35px;
 
 
 }
+
+/* --------------image hover change overlay-------------- */
 .card{
+  position: relative;
+  max-width:250px;
+  max-height: 310px;
 
 }
 .card img{
     width: 250px;
+    height: 310px;
+    
 }
+.overlay{
+    border: 2px solid #FF42A5;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+.card:hover .overlay{
+    opacity: 1;
+}
+.youtube-icon{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.watch-now{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.play-btn:hover{
+    color: #FFF;
+}
+/* -----------------img hover overlay end------------- */
 .card-description{
     color: #534C64;
 font-size: 18px;
@@ -357,5 +403,7 @@ footer img{
     font-weight: 500;
   
 }
+
+  
 
 
