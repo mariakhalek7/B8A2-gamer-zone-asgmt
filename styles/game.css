@@ -322,6 +322,7 @@ margin-top: 10px;
 .icon:hover{
   border: 1px solid #FF42A5;
   border-radius: 50px;
+  color: #da28bc;
 }
 .icon img{
    width: 50px;
@@ -347,6 +348,7 @@ footer{
     margin-bottom: 20px;
     font-size: 35px;
     color: #FFF;
+    gap: 10px;
 }
 .footer-title span{
     color: #da28bc;
@@ -402,6 +404,221 @@ footer img{
     font-size: 15px;
     font-weight: 500;
   
+}
+
+
+/* -----------------media query--------- */
+
+
+@media screen and (max-width:576px) {
+    
+    
+    nav,nav ul{
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .follow{
+       margin-left: 0;
+        width: 100%;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        padding:10px 20px ;
+        background-position: bottom;
+    
+    }
+    .banner img{
+        width: 340px;
+        height: 440px;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-title{
+        font-size:20px ;
+    }
+    .banner-title span{
+        font-weight: 28px;
+    }
+    .we-are-gamer-section{
+        flex-direction: column;
+        margin: 20px 20px;
+    }
+    .we-are-gamer-section img{
+        width: 400px;
+    }
+    .gamer-content{
+        text-align: center;
+    }
+    .we-are-gamer-title{
+        font-size: 30px;
+    }
+    .purpose span{
+        font-size: 20px;
+    }
+
+    .online-game-section{
+        margin: 40px 15px;
+    }
+    .card-container{
+        flex-direction: column;
+        gap: 70px;
+  
+        justify-content: center;
+        align-items: center;
+    }
+    .card-description{
+        font-size: 12px;
+    }
+    .online-game-title{
+        font-size: 26px;
+    }
+    .online-game-description{
+        font-size: 14px;
+    }
+
+    .play-instantly-section{
+        flex-direction: column;
+        margin: 0px 20px;
+        margin-top: 80px;
+        gap: 0;
+    }
+    .play-instant-content{
+        text-align: center;
+    }
+    .play-instant-title{
+        font-size: 24px;
+    }
+    .play-instant-description{
+        font-size: 14px;
+    }
+  
+    .play-instant-imges .big-img{
+        width: 280px;
+        margin-top: 60px;
+        margin-left: 65px;
+    
+    }
+    .play-instant-imges .small-img{
+        width:150px ;
+        top: -130px;
+    
+    }
+       
+    .icons-section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 10px;
+        column-gap: 9px;
+      
+    }
+    .icon{
+        padding: 4px 6px;
+    }
+    .icon img{
+        width: 25px;
+    }
+    .icon-title{
+        font-size: 9px;
+
+    }
+
+
+    footer{
+        padding: 70px 20px;
+        margin-top: 40px;
+    }
+     footer img{
+        width: 50px;
+     }
+    .footer-title{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .information{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 10px;
+    }
+    .information a{
+        font-size: 13px;
+    }
+    .footer-icons li{
+        margin: 15px;
+    }
+    .about-us{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+        margin-bottom: 20px;
+        
+    }
+    .about-us a{
+        font-size: 12px;
+    }
+    .footer-description{
+        font-size: 10px;
+    }
+
+ 
+    
+    
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav{
+        padding: 20px 30px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        background-position: bottom;
+        background-size: 50%;
+        /* gap: 100px; */
+    }
+    .banner img{
+        width: 410px;
+        height: 440px;
+    }
+    .we-are-gamer-section{
+        flex-direction: column;
+    }
+    .gamer-content{
+        text-align: center;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-description{
+        font-size: 14px;
+    }
+    .play-instantly-section{
+        flex-direction: column;
+        margin-top: 120px;
+        gap: 0;
+    }
+    .play-instant-content{
+        text-align: center;
+    }
+    .play-instant-imges .big-img{
+        margin-top: 30px;
+    }
+    .icons-section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0px 40px;
+        
+      
+    }
+    footer{
+        margin-top: 50px;
+    }
+
+    
 }
 
   
